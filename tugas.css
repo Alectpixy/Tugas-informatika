@@ -1,0 +1,50 @@
+
+.header {
+    text-align: center;
+    text-shadow: black;
+    text-rendering: auto;
+    text-decoration-color: black;
+    background-color: #1CB5E0;  
+    border-style: solid ;
+    border-color: grey ;
+    font-weight: bold;
+    outline-color: black;
+    outline-style: solid; 
+}
+
+.background.img { 
+    background-size: cover;
+    min-height: 50vh;
+    position: relative;
+    color: #131842;
+}
+
+.container-fluid {
+    text-align: justify;
+    text-decoration: none;
+    color: #FBF6E2 ;
+}
+
+.bg-info { background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    background-size: 100% 50px;
+     }
+
+.card-img-top {
+    width: auto !important;
+    height: auto !important;
+    object-fit: fill;
+}
+
+.redacted {
+    color: black;
+    background-color: black;
+
+}
+
+.footer {
+    text-align: center;
+    text-rendering: auto;
+    text-transform: initial;
+    background-color: #1CB5E0;
+    border: #000851 solid;
+}
