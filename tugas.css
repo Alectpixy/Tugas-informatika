@@ -48,3 +48,46 @@
     background-color: #1CB5E0;
     border: #000851 solid;
 }
+
+.splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 25%, rgba(9,8,116,1) 50%, rgba(9,9,121,1) 75%, rgba(0,212,255,1) 100%);
+    z-index: 200;
+    color: white;
+    text-align: center;
+    line-height: 90vh;
+    padding-top: 50vh;
+}
+
+.splash.display-none {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 25%, rgba(9,8,116,1) 50%, rgba(9,9,121,1) 75%, rgba(0,212,255,1) 100%);
+    z-index: -10;
+    color: white;
+    text-align: center;
+    line-height: 90vh;
+    padding-top: 50% ;
+    transition: all 1s
+}
+
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
+}
+
+.fade-in{
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
