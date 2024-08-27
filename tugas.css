@@ -20,6 +20,8 @@
 }
 
 .container-fluid {
+    width: 100%;
+    height: max-content;
     text-align: justify;
     text-decoration: none;
     color: #FBF6E2 ;
@@ -27,6 +29,8 @@
 
 .bg-info { background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
     background-size: 100% 50px;
+    height: 100%;
+    width: 100%;
      }
 
 .card-img-top {
